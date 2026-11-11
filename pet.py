@@ -29,7 +29,7 @@ class Pet:
     def bar(self, value):
         # 0~100 값을 10칸의 막대로 변환
         filled = value // 10
-        return "*" * filled + "-" * (10 - filled)
+        return "🟩" * filled + "⬜️" * (10 - filled)
 
     # 공통 메서드
     def _clamp(self, value):
